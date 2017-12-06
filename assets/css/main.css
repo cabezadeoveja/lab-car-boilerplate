@@ -59,7 +59,7 @@ p{
 }
 
 #foto1{
-	background-image: url(../assets/images/taxi.jpg);
+	background-image: url(../images/taxi.jpg);
 	height: 90vh;
     background-size: cover;
     background-position: bottom;
@@ -99,7 +99,7 @@ p{
 }
 
 #foto2{
-	background-image: url(../assets/images/conduce.jpg);
+	background-image: url(../images/conduce.jpg);
 	height: 60vh;
     background-size: cover;
     background-position: 100% 75%;
@@ -161,9 +161,9 @@ p{
 
 /* all */
 #text-placeholder::-webkit-input-placeholder { color:#ffffff; }
-#text-placeholder:::-moz-placeholder { color:#555; } /* firefox 19+ */
-#text-placeholder::-ms-input-placeholder { color:#555; } /* ie */
-input:-moz-placeholder { color:#555; } 
+#text-placeholder:::-moz-placeholder { color:#ffffff; } /* firefox 19+ */
+#text-placeholder::-ms-input-placeholder { color:#ffffff; } /* ie */
+input:-moz-placeholder { color:#ffffff; } 
 
 iframe{
     width: 37em;
@@ -188,9 +188,12 @@ footer li{
 	color: #ffffff;
 }
 
+ul.list-menu-2{
+	padding-top: 15em;
+}
+
 .fa-facebook, .fa-twitter, .fa-linkedin, .fa-instagram, .fa-youtube{
 	padding: 0.5em;
-	padding-top: 18em;
 }
 
 .media{
@@ -216,4 +219,13 @@ footer li{
 
 .list-redes-mobile{
 	padding: 0;
+}
+
+ul.list-redes-media{
+	padding: 0;
+}
+
+
+.fa-facebook, .fa-twitter, .fa-linkedin, .fa-instagram, .fa-youtube {
+	padding-top: 3em;
 }
