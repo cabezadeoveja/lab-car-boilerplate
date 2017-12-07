@@ -9,6 +9,11 @@ body{
 	padding: 1.25em 3.125em 0.625em 3.125em;
 }
 
+.navbar-default{
+	background-color: #ffffff;
+	border: none;
+}
+
 .logotipo{
 	height: 120%;
 }
@@ -99,29 +104,26 @@ p{
 }
 
 #foto2{
-	background-image: url(../images/conduce.jpg);
-	height: 60vh;
+    background-image: url(../images/conduce.jpg);
     background-size: cover;
-    background-position: 100% 75%;
-    margin:0;
-    z-index: -200;
-
+    background-repeat: no-repeat;
+    background-position: center center;
 }
+
 .title-section3{
-	padding: 3.75em 3.75em 0 0;
-	line-height: 2.5em;
+	padding: 0em 3.75em 0 0;
+	line-height: 1.5em;
 }
 
 .text-section3{
 	font-size: 1.125em;
 	padding-top: 0.5em;
 	color: #ffffff;
-	padding: 0 60 0 0px;}
+	padding: 0 3.75em 0 0;}
 
 .msj-conduce{
 	background-color: rgba(0,0,0,0.4);
-	height: 60vh;
-	padding: 0 1.875em;	
+	padding: 7em 3em 8em;
 }
 
 .btn-yellow{
@@ -165,9 +167,9 @@ p{
 #text-placeholder::-ms-input-placeholder { color:#ffffff; } /* ie */
 input:-moz-placeholder { color:#ffffff; } 
 
-iframe{
-    width: 37em;
-    height: 29em;
+.map {
+    border: 1px solid white;
+    padding: 0.5em;
 }
 
 footer{
